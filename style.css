@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+
+}
+.logo {
+    margin-left: 80px;
+}
+.menu {
+    display: flex ;
+    margin-right: 20px;
+    
+}
+.menu li {
+    margin-left: 25px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+.menu li a:hover {
+    background-color: violet;
+    text-decoration: underline;
+    transform:scale(1.2) ;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.title h1 {
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+    background-color: white;
+}
+.gallery-items{
+    width: 340px;
+    height: 340px;
+    border: 10px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: transform .5s linear;
+}
+.gallery-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items:hover{
+    transform: scale(1.1);
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.about h2 {
+    font-size: 40px;
+    padding: 20px;
+}
+.about p {
+    font-size: 25px;
+}
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.contatos h2 {
+    padding: 20px;
+    font-size: 40px;
+}
+.contatos p {
+    font: 25px;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+.link .whatsapp-icon:hover {
+    transform: scale(1.2);
+}
+.link .instagram-icon:hover {
+    transform: scale(1.2);
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+}
