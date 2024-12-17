@@ -1,0 +1,1 @@
+Olá, o objetivo deste projeto é dar o primeiro passo no mundo do desenvolvimento web, estou criando uma página para minha esposa usar de portifólio para os artesanatos dela, então ele é super simples.
